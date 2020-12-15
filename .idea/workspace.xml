@@ -2,41 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8d2b050-d72c-49ea-a04f-d96fe33f4bf6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/alt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/brakes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/cc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/cluth.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/fuel.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/headphone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/piston.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AuthApi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginCheck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HeaderComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Orders.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/items.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/orders.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/loginc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/cartActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/orderActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/productActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/cartReducers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/orderReducers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/productReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tyep.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginCheck.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginCheck.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607667369021</updated>
       <workItem from="1607667375593" duration="47037000" />
-      <workItem from="1607823265119" duration="68876000" />
+      <workItem from="1607823265119" duration="69975000" />
     </task>
     <servers />
   </component>

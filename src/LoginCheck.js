@@ -36,16 +36,16 @@ function Logincheck() {
 
 const LoginCheck = () => {
     const Auth = React.useContext(AuthApi);
-    const [userName, setUserName,] = React.useState('');
-    const [acesstocken, setaccestocken] = React.useState('');
+   // const [userName, setUserName,] = React.useState('');
+   // const [acesstocken, setaccestocken] = React.useState('');
     const [mail, setMail] = React.useState('');
-    const [imageUri, setImageURI] = React.useState('');
+   // const [imageUri, setImageURI] = React.useState('');
     const onSuccessGoogle = (response) => {
         console.log(response.profileObj)
-        setUserName(response.profileObj.given_name);
+      //  setUserName(response.profileObj.given_name);
         //setaccestocken(response.Rt.accessToken)
         setMail(response.profileObj.email);
-        setImageURI(response.profileObj.imageUrl)
+        //setImageURI(response.profileObj.imageUrl)
         Cookies.set('SESSION_TOKEN', response.profileObj.email)
         Auth.setAuth(true);
     }
@@ -53,10 +53,10 @@ const LoginCheck = () => {
         console.log("fails")
         console.log(response)
     }
-    const buttonLogin = (event) => {
-            Cookies.set('SESSION_TOKEN', "y@g.com")
-            Auth.setAuth(true);
-        }
+    // const buttonLogin = (event) => {
+    //         Cookies.set('SESSION_TOKEN', "y@g.com")
+    //         Auth.setAuth(true);
+    //     }
     return (
         <div className="container">
             <form>
@@ -72,7 +72,7 @@ const LoginCheck = () => {
                     </div>
 
                     <div className="col">
-                        <a href="#" className="google btn"><i className="fa fa-google fa-fw">
+                        <a  className="google btn"><i className="fa fa-google fa-fw">
                         </i> Login with Google+
                             <GoogleLogin
                                 clientId="964007476173-6cgjdq5rkm3ptnsqlpocqjjos3gpu7lh.apps.googleusercontent.com"
