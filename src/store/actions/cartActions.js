@@ -43,11 +43,23 @@ export const addToCart = (item) => (dispatch, getState) => {
 
 export const removeFromCart = (item) => (dispatch, getState) => {
 
-    const cartItems = getState().cart.cartItems.slice().filter((cartitem) => cartitem.item_id !== item.item_id);
+     const cartItems = getState().cart.cartItems.slice().filter((cartitem) => cartitem.item_id !== item.item_id);
+    // const config = {
+    //     data: item,
+    // }
+    // axios.delete("http://localhost:8090/v1/catalog/deletecartitem/1", item).then((response) => {
+    // });
+    // for( var i = 0; i < cartItems.length; i++){
+    //
+    //     if ( cartItems[i].item_id === item.item_id) {
+    //         cartItems.splice(i, 1);
+    //         i--;
+    //     }
+    // }
     const config = {
         data: item,
     }
-    axios.delete("http://localhost:8090/v1/catalog/deletecartitem/1", item).then((response) => {
+    axios.delete("http://localhost:8090/v1/catalog/deletecartitem/1", config).then((response) => {
     });
     dispatch({type: Constants.REMOVE_FROM_CART, payload: {cartItems}});
     localStorage.setItem("cartItems", JSON.stringify(cartItems));
@@ -62,7 +74,6 @@ export const reduceItemsFromCart = (item) => (dispatch, getState) => {
         }
     });
     if(item.count===0){
-        console.log("handleOnExpandRow")
         for( var i = 0; i < cartItems.length; i++){
 
             if ( cartItems[i].item_id === item.item_id) {

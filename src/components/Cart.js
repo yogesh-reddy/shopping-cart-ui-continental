@@ -106,11 +106,11 @@ class Cart extends React.Component {
                                         <tr>
                                             <td>
                                                 <div  className="cart-info">
-                                                    <img src={item.thumb}/>
+                                                    <img src={item.thumb} alt=""/>
                                                     <div>
                                                         <p>{item.item_name}</p>
                                                         <small>{formatCurrency(item.discount_price)}</small>
-                                                        <a href> remove</a>
+                                                        <a href  onClick={() => this.props.removeFromCart(item)}> remove</a>
                                                     </div>
                                                 </div>
                                             </td>

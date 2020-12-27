@@ -18,26 +18,28 @@ class HeaderComponent extends React.Component {
         <span className="navbar-toggle" id="js-navbar-toggle">
             <i className="fas fa-bars"></i>
         </span>
-                <a href="#" className="logo">Continental Corporation</a>
+                <a href className="logo">Continental Corporation
+                    <CarFront32 className="headericon"/>
+                </a>
                 <ul className="main-nav" id="js-menu">
                     <Link to="/" >
-                    <li>
+                    <li className="header-li">
                         <a href="/" className="nav-links">Home</a>
                     </li>
                     </Link>
                     <Link to="/orders" className="cart">
-                    <li>
+                    <li className="header-li">
                         <a href="/orders" className="nav-links">Orders</a>
                     </li>
                      </Link>
                     <li>
                     </li>
-                    <li>
-                        <a href="#" className="nav-links">Contact Us</a>
-                    </li>
+                    {/*<li>*/}
+                    {/*    <a href="#" className="nav-links">Contact Us</a>*/}
+                    {/*</li>*/}
                     <Link to="/cart" className="cart">
                     <li>
-                        <a  className="nav-links">
+                        <a href  className="nav-links">
                              <span className="icon-header" id='lblCartCount'>
                         <ShoppingCart32 className="headericon"/>
                     </span >
