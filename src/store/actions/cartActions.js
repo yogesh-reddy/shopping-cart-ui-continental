@@ -2,7 +2,7 @@ import Constants from "../../tyep";
 import axios from "axios";
 
 export const fetchInitialCart = () => async (dispatch) => {
-    const res = await fetch("http://localhost:8090/v1/catalog/listcart/1")
+    const res = await fetch("https://ancient-hollows-51395.herokuapp.com/v1/catalog/listcart/1")
     const data = await res.json();
     dispatch({
         type: Constants.FETCH_CART_DETAILS,
@@ -25,11 +25,11 @@ export const addToCart = (item) => (dispatch, getState) => {
     if (!inCart) {
         cartItems.push({...item, count: 1});
         item.count=1;
-        axios.post("http://localhost:8090/v1/catalog/insertcartitem/1", item).then((response) => {
+        axios.post("https://ancient-hollows-51395.herokuapp.com/v1/catalog/insertcartitem/1", item).then((response) => {
 
         });
     } else {
-        axios.put("http://localhost:8090/v1/catalog/updatecart/1", item).then((response) => {
+        axios.put("https://ancient-hollows-51395.herokuapp.com/v1/catalog/updatecart/1", item).then((response) => {
         });
     }
     dispatch({
@@ -47,7 +47,7 @@ export const removeFromCart = (item) => (dispatch, getState) => {
     // const config = {
     //     data: item,
     // }
-    // axios.delete("http://localhost:8090/v1/catalog/deletecartitem/1", item).then((response) => {
+    // axios.delete("https://ancient-hollows-51395.herokuapp.com/v1/catalog/deletecartitem/1", item).then((response) => {
     // });
     // for( var i = 0; i < cartItems.length; i++){
     //
@@ -59,7 +59,7 @@ export const removeFromCart = (item) => (dispatch, getState) => {
     const config = {
         data: item,
     }
-    axios.delete("http://localhost:8090/v1/catalog/deletecartitem/1", config).then((response) => {
+    axios.delete("https://ancient-hollows-51395.herokuapp.com/v1/catalog/deletecartitem/1", config).then((response) => {
     });
     dispatch({type: Constants.REMOVE_FROM_CART, payload: {cartItems}});
     localStorage.setItem("cartItems", JSON.stringify(cartItems));
@@ -84,10 +84,10 @@ export const reduceItemsFromCart = (item) => (dispatch, getState) => {
         const config = {
             data: item,
         }
-        axios.delete("http://localhost:8090/v1/catalog/deletecartitem/1", config).then((response) => {
+        axios.delete("https://ancient-hollows-51395.herokuapp.com/v1/catalog/deletecartitem/1", config).then((response) => {
         });
     }else{
-    axios.put("http://localhost:8090/v1/catalog/updatecart/1", item).then((response) => {
+    axios.put("https://ancient-hollows-51395.herokuapp.com/v1/catalog/updatecart/1", item).then((response) => {
     });}
     dispatch({type: Constants.REDUCE_FROM_CART, payload: {cartItems}});
     localStorage.setItem("cartItems", JSON.stringify(cartItems));

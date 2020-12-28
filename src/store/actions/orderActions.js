@@ -1,7 +1,7 @@
 import Constants from "../../tyep";
 
 export const createOrder = (order) => (dispatch) => {
-  fetch("http://localhost:8090/v1/catalog/placeorder/1", {
+  fetch("https://ancient-hollows-51395.herokuapp.com/v1/catalog/placeorder/1", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -22,7 +22,7 @@ export const clearOrder = () => (dispatch) => {
 };
 
 export const fetchOrders = () => (dispatch) => {
-  fetch("http://localhost:8090/v1/catalog/listorder/1")
+  fetch("https://ancient-hollows-51395.herokuapp.com/v1/catalog/listorder/1")
     .then((res) => res.json())
     .then((data) => {
       dispatch({ type: Constants.FETCH_ORDERS, payload: data });

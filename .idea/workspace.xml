@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8d2b050-d72c-49ea-a04f-d96fe33f4bf6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/bat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/rad.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/headphone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeaderComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/items.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/items.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/actions/cartActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/cartActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/orderActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/orderActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/productActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/productActions.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +67,7 @@
       <workItem from="1607667375593" duration="47037000" />
       <workItem from="1607823265119" duration="69975000" />
       <workItem from="1608378699832" duration="550000" />
+      <workItem from="1609088038078" duration="571000" />
     </task>
     <servers />
   </component>
